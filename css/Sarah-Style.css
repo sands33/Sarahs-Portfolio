@@ -87,6 +87,24 @@
      width:100%;
 }
 
+.body  {
+      
+      width: 100%;
+      min-width: 450px;
+      height: 50%;
+      background-color: pink;
+      background-image: url("http://images.nationalgeographic.com/wpf/media-live/photos/000/184/cache/spawning-atlantic-salmon-nicklen_18414_600x450.jpg");
+}
+
+ 
+.up {
+    margin:0%;
+    padding:0%;
+    width:24%;
+    height:10%;
+    color: pink;
+}
+
 .cells {
       margin:2%;
       padding:2%;
@@ -98,9 +116,19 @@
       border-style: solid;
       border-color: black;
 }
-
-.blogbox {
+.buttons.retainer {
     margin-top:2%;
+    margin-bottom: 2%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    height: 10%;
+    width: 100%;
+    border-style:solid;
+    background-color: brown;
+}
+    
+.blogbox {
+    margin:2%;
     margin-bottom: 2%;
     padding-top:2%;
     padding-bottom: 2%;
@@ -111,6 +139,16 @@
     background-color: beige;
 }
 
+.blogbox2 {
+    margin:2% 0% 2% 2%;
+    padding-top:2% 2% 2% 2%;
+    float: left;
+    height: 50%;
+    width: 70%;
+    border-style:solid;
+    background-color: beige;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
+}
 
 .background {
     width: 45%;
@@ -162,20 +200,61 @@
 }
 
 .write-ups {
-    margin:10%;
+    margin:5%;
 }
 
-.up {
-    width:25%
+
+.links-retainer {
+    margin:2%;
+    padding:2%;
+    float: left;
+    height: auto;
+    width: 24%;
+    border-style:solid;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
+    
 }
+
+.link-message {
+    margin:2%;
+    padding:2%;
+    
+    opacity: 20%;
+    width:90%;
+    height: auto;
+}
+
+.supporters {
+    margin-top:2%;
+    margin-bottom: 0%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    float: left;
+    height: auto;
+    max-height:150px;
+    width: 100%;
+    border-style:solid;
+    background-image: url("http://www.publicdomainpictures.net/pictures/20000/nahled/stream-bed-background.jpg");
+}
+
+    
+a.swap { 
+background-image:url(http://www.ballardnewstribune.com/sites/robinsonpapers.com/files/imagecache/popup_image/images/wwwballardnewstribunecom/2012/05/100-toast.jpg); 
+}
+
+a.swap:hover { 
+background-image:url(http://nuclearweaponarchive.org/Uk/HurrA.jpg); 
+}
+
 
 #elks {
-    width:25%;
+    width:19%;
     max-height:100px;
-    margin-top:5%;
+    margin-top:2%;
     max-height: auto;
     float:left;
-    background-color: white;
+    margin-bottom: 10%;
+  
 }
 
 #elks-image {
@@ -183,16 +262,17 @@
     max-height:100px;
     max-width: 100px;
     padding: 0;
-    margin: 0;
+    
 }
 
 #sands {
-    width:25%;
+    width:19%;
     max-height:100px;
     max-height: auto;
     margin-top:2%;
     float:left;
-    background-color: white;
+     margin-bottom: 10%;
+    
 }
     
 
@@ -201,7 +281,7 @@
     max-height:100px;
     max-width: 100px;
     padding: 0;
-    margin: 0;
+   
 }
 
 .pink{
@@ -209,13 +289,19 @@
 }
 
 #footerlogos {
-    width:33%;
+    width:33.3333%;
     height:auto;
     margin:0%;
     padding-right: 12%;
     float:left;
     border-style: solid;
-    background-color: gray;
+    background-color: pink;
+}
+
+#copyright {
+    border-color: black;
+    border-style: solid;
+    width: 100%;
 }
 
 

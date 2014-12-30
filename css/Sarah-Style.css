@@ -83,7 +83,7 @@
 /* close commented backslash hack */
 
 #banner {
-     max-height: auto;
+    
      width:100%;
 }
 
@@ -108,7 +108,7 @@
 .cells {
       margin:2%;
       padding:2%;
-      width: 70%;
+      width: 90%;
       min-width: 150px;
       height: auto;
       float:left;
@@ -116,7 +116,7 @@
       border-style: solid;
       border-color: black;
 }
-.buttons.retainer {
+.buttons-retainer {
     margin-top:2%;
     margin-bottom: 2%;
     padding-top:2%;
@@ -126,15 +126,22 @@
     border-style:solid;
     background-color: brown;
 }
+
+.links-bars {
+    width:100%;
+    height:auto;
+    float:left;
+    clear:both;
+    font-color: white;
+}
     
 .blogbox {
-    margin:2%;
-    margin-bottom: 2%;
-    padding-top:2%;
-    padding-bottom: 2%;
+    margin:2% 1% 2% 0%;
+    
+    
     float: left;
     height: 400%;
-    width: 25%;
+    width: 20%;
     border-style:solid;
     background-color: beige;
 }
@@ -150,57 +157,74 @@
     background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
 }
 
+.sponsor-box {
+    margin:2% 0% 2% 2%;
+    padding-top:2% 2% 2% 2%;
+    float: left;
+    height: 50%;
+    width: 40%;
+    border-style:solid;
+    background-color: beige;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
+}
+
 .background {
     width: 45%;
-    height:40%;
-    min-height: 350px;
+    height:38%;
+    min-height: 400px;
     float:left;
-    margin:2%;
+    
+    margin:2% 2% 2% 3%;
     border-style: solid;
-    background-color: teal;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
 }
 
 .training {
     width: 45%;
-    height:40%;
-    min-height: 350px;
+    height:38%;
+    min-height: 400px;
     float:left;
-    margin:2%;
+    margin:2% 2% 2% 0%;
     border-style: solid;
-    background-color: teal;
-    
-    
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
 }
 
 .sponsors {
     width: 45%;
-    height:40%;
-    min-height: 350px;
+    height:38%;
+    min-height: 400px;
     float:left;
-    margin:2%;
+    margin:2% 0% 2% 3%;
     border-style: solid;
-    background-color: teal;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
 }
     
 
 .finishes {
     width: 45%;
-    height:40%;
-    min-height: 350px;
+    height:38%;
+    min-height: 400px;
     float:left;
-    margin:2%;
+    margin:2% 2% 2% 2%;
     border-style: solid;
-    background-color: teal;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg");
 }
 
 .portraits {
-    width:95%;
+    width:75%;
     height:auto;
-    padding:2.5%;
+    margin: 0% 12% 0% 12%;
+}
+
+#ghost {
+    width:65%;
+    height:auto;
+    margin: 0% 17% 0% 17%;
 }
 
 .write-ups {
     margin:5%;
+    background-image: url("http://www.youthedesigner.com/wp-content/uploads/2010/08/17-free-parchment-texture.jpg")
 }
 
 
@@ -230,13 +254,17 @@
     padding-top:2%;
     padding-bottom: 2%;
     float: left;
-    height: auto;
+    height: 10%;
     max-height:150px;
     width: 100%;
     border-style:solid;
     background-image: url("http://www.publicdomainpictures.net/pictures/20000/nahled/stream-bed-background.jpg");
 }
 
+.training-page-background {
+    width:100%;
+    background-image: url("https://raw.githubusercontent.com/sands33/Sarahs-Portfolio/master/images/sarah-banner-home.JPG");
+}
     
 a.swap { 
 background-image:url(http://www.ballardnewstribune.com/sites/robinsonpapers.com/files/imagecache/popup_image/images/wwwballardnewstribunecom/2012/05/100-toast.jpg); 
